@@ -1,0 +1,34 @@
+advanced-c2-system/
+├── server/
+│   ├── c2_server.py              # Main server application
+│   ├── server_config.json        # Server configuration
+│   ├── requirements.txt          # Python dependencies
+│   ├── setup_server.py           # Server setup script
+│   ├── tor_config.py             # Tor relay configuration
+│   ├── proxy_manager.py          # Multi-proxy management
+│   ├── auth_system.py            # User authentication
+│   ├── logging_config.py         # Enhanced logging
+│   ├── update_manager.py         # Client update system
+│   ├── maintenance.py            # Maintenance utilities
+│   └── templates/
+│       ├── dashboard.html        # Main dashboard
+│       ├── admin.html            # Admin panel
+│       ├── clients.html          # Clients management
+│       └── client_detail.html    # Client details page
+│
+├── client/
+│   ├── surveillance_client.py    # Main client application
+│   ├── client_config.json        # Client configuration
+│   ├── requirements.txt          # Client dependencies
+│   ├── install_client.py         # Client installation
+│   ├── persistence_manager.py    # Cross-platform persistence
+│   ├── obfuscate.py             # Code obfuscation
+│   └── build_client.py          # Client builder
+│
+├── deployment/
+│   ├── deploy_server.sh         # Server deployment script
+│   ├── tor_setup.sh            # Tor setup script
+│   ├── generate_ssl.sh         # SSL certificate generator
+│   └── nginx_config            # Nginx reverse proxy config
+│
+└── README.md                   # Project documentation
